@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transferwise.sequencelayout.SequenceLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <com.transferwise.sequencelayout.SequenceStep
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitle="First Step Subtitle"
+        app:anchor="10 Jan"
+        app:title="First step"/>
+    <com.transferwise.sequencelayout.SequenceStep
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitle="Second Step Subtitle"
+        app:title="Second step"/>
+    <com.transferwise.sequencelayout.SequenceStep
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:anchor="Today"
+        app:title="Third step"
+        app:subtitle="Third Step Subtitle" />
+
+</com.transferwise.sequencelayout.SequenceLayout>
